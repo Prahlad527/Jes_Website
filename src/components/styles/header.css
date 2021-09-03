@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header_logo {
+  width: 100px;
+  height: 140px;
+}
+h2 {
+  text-align: center;
+  /* justify-content: center; */
+}
+
+.nav-menu {
+  background-color: '#000';
+  /* color: white; */
+}
+.nav-menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.nav-menu ul li {
+  text-decoration: none;
+}
